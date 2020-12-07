@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --darkBlueIntro: hsl(217, 28%, 15%);
+  --darkBlueMain: hsl(218, 28%, 13%);
+  --darkBlueFooter: hsl(216, 53%, 9%);
+  --darkBluetestimonial: hsl(219, 30%, 18%);
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --lightRed: hsl(0, 100%, 63%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--darkBlueMain);
+}
+
+.fontRaleway {
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+  display: flex;
+  background: var(--darkBlueIntro);
+  /* background-color: indigo; */
+  padding: 4rem;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  color: white;
+}
+
+.navItem {
+  margin: 0 1rem;
+}
+
+main {
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  width: 100%;
+  background: var(--darkBlueIntro) url("./images/bg-curvy-desktop.svg")
+    no-repeat center bottom/100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 0 20rem 10rem;
+  text-align: center;
+}
+
+.introHead {
+  font-size: 3em;
+}
+
+.introText {
+  margin-top: 2.5rem;
+  font-size: 1.5em;
+  padding: 1rem 5rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 1rem 5rem;
+  border-radius: 5rem;
+  font-size: 1rem;
+  background-color: var(--cyan);
+}
+
+.benefits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.benefit {
+  width: 35rem;
+  /* background-color: yellowgreen; */
+  color: white;
+  text-align: center;
+  margin: 4em;
+  /* padding: 0 2rem; */
+}
+
+.benefit-head {
+  margin-top: 1rem;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.benefit-brief {
+  font-size: 1.5em;
+  padding: 1rem 0;
+}
