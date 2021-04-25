@@ -280,7 +280,7 @@ main {
 }
 
 .input-earlyAccess {
-  padding: 1.2rem 2rem;
+  padding: 1rem 2rem;
   border-radius: 5rem;
   width: 100%;
 }
@@ -294,7 +294,8 @@ main {
 
 .card-btn {
   margin: 0 0 0 0.5rem;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
+  font-size: 0.9rem;
   border-radius: 5rem;
 }
 
@@ -307,6 +308,5 @@ footer {
   width: 100%;
 }
 
-.footer-main{
-  
+.footer-main {
 }
