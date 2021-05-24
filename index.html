@@ -214,13 +214,20 @@
           be happy to help you.
         </div>
 
-        <div class="cta">
+        <form class="cta" id="form">
           <div class="input-earlyAccess-container">
-            <input type="text" class="input-earlyAccess" />
-            <p class="errorMsg">PLease enter a valid email address</p>
+            <input
+              type="text"
+              class="input-earlyAccess"
+              id="input-earlyAccess"
+              placeholder="email@example.com"
+            />
+            <p class="errorMsg">Please enter a valid email address</p>
           </div>
-          <button class="btn card-btn">Get Started For Free</button>
-        </div>
+          <button class="btn card-btn" type="submit">
+            Get Started For Free
+          </button>
+        </form>
       </div>
     </main>
 
@@ -230,7 +237,7 @@
       </div>
 
       <div class="footer-main">
-        <div class="contact-details">
+        <div class="contact-address-details">
           <div class="address">
             <img src="./images/icon-location.svg" alt="" />
             <span>
@@ -239,31 +246,33 @@
             </span>
           </div>
 
-          <div class="telephone">
-            <img src="./images/icon-phone.svg" alt="" />
-            <span> +1-543-123-4567 </span>
-          </div>
+          <div class="contact-div">
+            <div class="telephone">
+              <img src="./images/icon-phone.svg" alt="" />
+              <span> +1-543-123-4567 </span>
+            </div>
 
-          <div class="email">
-            <img src="./images/icon-email.svg" alt="" />
-            <span> example@fylo.com </span>
+            <div class="email">
+              <img src="./images/icon-email.svg" alt="" />
+              <span> example@fylo.com </span>
+            </div>
           </div>
         </div>
 
         <div class="footer-links">
-          <div class="footer-link">About Us</div>
+          <a class="footer-link">About Us</a>
 
-          <div class="footer-link">Jobs</div>
+          <a class="footer-link">Contact Us</a>
 
-          <div class="footer-link">Press</div>
+          <a class="footer-link">Jobs</a>
 
-          <div class="footer-link">Blog</div>
+          <a class="footer-link">Terms</a>
 
-          <div class="footer-link">Contact Us</div>
+          <a class="footer-link">Press</a>
 
-          <div class="footer-link">Terms</div>
+          <a class="footer-link">Privacy</a>
 
-          <div class="footer-link">Privacy</div>
+          <a class="footer-link">Blog</a>
         </div>
 
         <div class="social-links">
@@ -272,13 +281,14 @@
           <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
-
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </p>
     </footer>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/amantyagi994">Aman Tyai</a>.
+    </p>
+
+    <script src="script.js"></script>
   </body>
 </html>
